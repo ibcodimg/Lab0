@@ -16,8 +16,11 @@ public class App {
         System.out.println("Enter the second number you wish to add: ");
         int num2 = keyboard.nextInt();
 
+        //this comment wasnt here before!
+
         int sum = add(num1, num2);
 
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+        System.out.println("Thank you!");
     }
 }
